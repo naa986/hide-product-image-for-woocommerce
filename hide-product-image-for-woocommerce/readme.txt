@@ -4,7 +4,7 @@ Donate link: https://noorsplugin.com/
 Tags: image, product, woocommerce, e-commerce, woo
 Requires at least: 3.0
 Tested up to: 6.6
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -25,6 +25,8 @@ For detailed documentation please check out the [Hide Product Image for WooComme
 === Hide Product Image for WooCommerce Add-ons ===
 
 * [Hide Images by Products](https://noorsplugin.com/hide-product-image-for-woocommerce-plugin/)
+* [Hide Shop Images](https://noorsplugin.com/hide-product-image-for-woocommerce-plugin/)
+* [Hide Cart Images](https://noorsplugin.com/woocommerce-hide-cart-images/)
 
 == Installation ==
 
@@ -48,6 +50,9 @@ Yes.
 none
 
 == Changelog ==
+
+= 1.0.4 =
+* Added support for the hide cart images add-on.
 
 = 1.0.3 =
 * Added a checkbox to enable/disable the feature.

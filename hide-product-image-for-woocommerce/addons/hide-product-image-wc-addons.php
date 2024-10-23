@@ -16,6 +16,22 @@ function hide_product_image_wc_display_addons()
     );
     array_push($addons_data, $addon_1);
     
+    $addon_2 = array(
+        'name' => 'Hide Shop Images',
+        'thumbnail' => HIDE_PRODUCT_IMAGE_WC_URL.'/addons/images/hpifwc-hide-shop-images.png',
+        'description' => 'Hide product images on the WooCommerce shop page',
+        'page_url' => 'https://noorsplugin.com/hide-product-image-for-woocommerce-plugin/',
+    );
+    array_push($addons_data, $addon_2);
+    
+    $addon_3 = array(
+        'name' => 'Hide Cart Images',
+        'thumbnail' => HIDE_PRODUCT_IMAGE_WC_URL.'/addons/images/hpifwc-hide-cart-images.png',
+        'description' => 'Hide product images on the WooCommerce cart page',
+        'page_url' => 'https://noorsplugin.com/woocommerce-hide-cart-images/',
+    );
+    array_push($addons_data, $addon_3);
+    
     //Display the list
     foreach ($addons_data as $addon) {
         ?>
