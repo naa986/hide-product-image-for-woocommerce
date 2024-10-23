@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Hide Product Image for WooCommerce
-Version: 1.0.3
+Version: 1.0.4
 Plugin URI: https://noorsplugin.com/hide-product-image-for-woocommerce-plugin/
 Author: naa986
 Author URI: https://noorsplugin.com/
@@ -16,7 +16,7 @@ if (!defined('ABSPATH')) {
 
 class HIDE_PRODUCT_IMAGE_WC
 {
-    var $plugin_version = '1.0.3';
+    var $plugin_version = '1.0.4';
     var $db_version = '1.0.1';
     var $plugin_url;
     var $plugin_path;
