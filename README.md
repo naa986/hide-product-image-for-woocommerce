@@ -1,0 +1,1 @@
+# hide-product-image-for-woocommerce
