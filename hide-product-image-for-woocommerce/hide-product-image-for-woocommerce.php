@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Hide Product Image for WooCommerce
-Version: 1.0.4
+Version: 1.0.5
 Plugin URI: https://noorsplugin.com/hide-product-image-for-woocommerce-plugin/
 Author: naa986
 Author URI: https://noorsplugin.com/
@@ -16,7 +16,7 @@ if (!defined('ABSPATH')) {
 
 class HIDE_PRODUCT_IMAGE_WC
 {
-    var $plugin_version = '1.0.4';
+    var $plugin_version = '1.0.5';
     var $db_version = '1.0.1';
     var $plugin_url;
     var $plugin_path;
@@ -91,18 +91,22 @@ class HIDE_PRODUCT_IMAGE_WC
     
     function plugin_url()
     {
-        if($this->plugin_url) return $this->plugin_url;
+        if($this->plugin_url) {
+            return $this->plugin_url;
+        }
         return $this->plugin_url = plugins_url( basename( plugin_dir_path(__FILE__) ), basename( __FILE__ ) );
     }
     
     function plugin_path(){ 	
-        if ( $this->plugin_path ) return $this->plugin_path;		
+        if ( $this->plugin_path ) {
+            return $this->plugin_path;	
+        }
         return $this->plugin_path = untrailingslashit( plugin_dir_path( __FILE__ ) );
     }
     
     function add_plugin_action_links($links, $file)
     {
-        if ( $file == plugin_basename( dirname( __FILE__ ) . '/main.php' ) )
+        if ( $file == plugin_basename( dirname( __FILE__ ) . '/hide-product-image-for-woocommerce.php' ) )
         {
             $links[] = '<a href="options-general.php?page=hide-product-image-wc-settings">'.__('Settings', 'hide-product-image-for-woocommerce').'</a>';
         }
