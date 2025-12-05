@@ -3,7 +3,7 @@ Contributors: naa986
 Donate link: https://noorsplugin.com/
 Tags: image, product, woocommerce, cart, ecommerce
 Requires at least: 3.0
-Tested up to: 6.8
+Tested up to: 6.9
 Stable tag: 1.0.5
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
